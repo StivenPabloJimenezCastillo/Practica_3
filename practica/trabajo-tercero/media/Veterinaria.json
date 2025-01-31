@@ -1,0 +1,82 @@
+[
+{
+    "id": 1,
+    "nombre": "VetSa Veterinaria",
+    "telefono": "+593 98 972 8308",
+    "horario": "9:00 AM - 6:00 PM",
+    "ltd": -3.988120,
+    "lng": -79.204360
+},
+{
+    "id": 2,
+    "nombre": "Clínica Veterinaria Loja",
+    "telefono": "+593 7 257 1234",
+    "horario": "8:00 AM - 7:00 PM",
+    "ltd": -3.993456,
+    "lng": -79.201234
+},
+{
+    "id": 3,
+    "nombre": "Veterinaria San Francisco",
+    "telefono": "+593 98 765 4321",
+    "horario": "8:30 AM - 6:30 PM",
+    "ltd": -3.987654,
+    "lng": -79.198765
+},
+{
+    "id": 4,
+    "nombre": "Veterinaria El Arca",
+    "telefono": "+593 7 258 5678",
+    "horario": "9:00 AM - 5:00 PM",
+    "ltd": -3.985432,
+    "lng": -79.202345
+},
+{
+    "id": 5,
+    "nombre": "Veterinaria Los Animalitos",
+    "telefono": "+593 99 123 4567",
+    "horario": "8:00 AM - 6:00 PM",
+    "ltd": -3.991234,
+    "lng": -79.199876
+},
+{
+    "id": 6,
+    "nombre": "Veterinaria Pet Care",
+    "telefono": "+593 7 256 7890",
+    "horario": "9:00 AM - 7:00 PM",
+    "ltd": -3.989876,
+    "lng": -79.203456
+},
+{
+    "id": 7,
+    "nombre": "Veterinaria Amigo Fiel",
+    "telefono": "+593 98 654 3210",
+    "horario": "8:30 AM - 6:00 PM",
+    "ltd": -3.992345,
+    "lng": -79.200123
+},
+{
+    "id": 8,
+    "nombre": "Veterinaria Patitas Felices",
+    "telefono": "+593 7 259 0123",
+    "horario": "9:00 AM - 5:30 PM",
+    "ltd": -3.986789,
+    "lng": -79.201987
+},
+{
+    "id": 9,
+    "nombre": "Veterinaria Cuidado Animal",
+    "telefono": "+593 99 987 6543",
+    "horario": "8:00 AM - 7:00 PM",
+    "ltd": -3.990123,
+    "lng": -79.198234
+},
+{
+    "id": 10,
+    "nombre": "Veterinaria Mascotas Saludables",
+    "telefono": "+593 7 254 3210",
+    "horario": "9:00 AM - 6:00 PM",
+    "ltd": -3.987123,
+    "lng": -79.202678
+}
+]

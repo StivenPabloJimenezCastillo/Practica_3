@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang='es'>
+<head>
+    <title>Matriz de Distancias y Grafo</title>
+    <script src='vis.js'></script>
+    <style>
+        .container { margin: 20px; }
+        .distance-matrix { border-collapse: collapse; width: 100%; }
+        .distance-matrix th, .distance-matrix td { border: 1px solid #ddd; padding: 8px; text-align: center; }
+        .distance-matrix th { background-color: #f2f2f2; }
+        h1 { color: #333; }
+        #mynetwork { width: 600px; height: 400px; border: 1px solid lightgray; }
+    </style>
+</head>
+<body>
+    <div class='header'>
+        <p>Muestra el grafo</p>
+    </div>
+    <div id='mynetwork'></div>
+    <script type='text/javascript' src='graph.js'></script>
+    <div class='container'>
+        <h1>Matriz de Distancias</h1>
+        <table class='distance-matrix'>
+<tr><th></th><th>VetSaVeterinaria</th><th>ClínicaVeterinariaLoja</th><th>VeterinariaSanFrancisco</th><th>VeterinariaElArca</th><th>VeterinariaLosAnimalitos</th><th>VeterinariaPetCare</th><th>VeterinariaAmigoFiel</th><th>VeterinariaPatitasFelices</th><th>VeterinariaCuidadoAnimal</th><th>VeterinariaMascotasSaludables</th></tr>
+<tr><td><b>VetSaVeterinaria</b></td><td>0,000</td><td>0,688</td><td>0,623</td><td>0,373</td><td>0,935</td><td>0,220</td><td>0,680</td><td>0,599</td><td>0,715</td><td>0,217</td></tr>
+<tr><td><b>ClínicaVeterinariaLoja</b></td><td>0,688</td><td>0,000</td><td>0,706</td><td>0,901</td><td>0,289</td><td>0,468</td><td>0,833</td><td>0,836</td><td>0,509</td><td>0,722</td></tr>
+<tr><td><b>VeterinariaSanFrancisco</b></td><td>0,623</td><td>0,706</td><td>0,000</td><td>0,468</td><td>0,417</td><td>0,576</td><td>0,543</td><td>0,838</td><td>0,281</td><td>0,659</td></tr>
+<tr><td><b>VeterinariaElArca</b></td><td>0,373</td><td>0,901</td><td>0,468</td><td>0,000</td><td>0,701</td><td>0,509</td><td>0,838</td><td>0,889</td><td>0,693</td><td>0,192</td></tr>
+<tr><td><b>VeterinariaLosAnimalitos</b></td><td>0,935</td><td>0,289</td><td>0,417</td><td>0,701</td><td>0,000</td><td>0,758</td><td>0,544</td><td>0,547</td><td>0,220</td><td>0,893</td></tr>
+<tr><td><b>VeterinariaPetCare</b></td><td>0,220</td><td>0,468</td><td>0,576</td><td>0,509</td><td>0,758</td><td>0,000</td><td>0,461</td><td>0,380</td><td>0,784</td><td>0,437</td></tr>
+<tr><td><b>VeterinariaAmigoFiel</b></td><td>0,680</td><td>0,833</td><td>0,543</td><td>0,838</td><td>0,544</td><td>0,461</td><td>0,000</td><td>0,840</td><td>0,324</td><td>0,646</td></tr>
+<tr><td><b>VeterinariaPatitasFelices</b></td><td>0,599</td><td>0,836</td><td>0,838</td><td>0,889</td><td>0,547</td><td>0,380</td><td>0,840</td><td>0,000</td><td>0,557</td><td>0,817</td></tr>
+<tr><td><b>VeterinariaCuidadoAnimal</b></td><td>0,715</td><td>0,509</td><td>0,281</td><td>0,693</td><td>0,220</td><td>0,784</td><td>0,324</td><td>0,557</td><td>0,000</td><td>0,884</td></tr>
+<tr><td><b>VeterinariaMascotasSaludables</b></td><td>0,217</td><td>0,722</td><td>0,659</td><td>0,192</td><td>0,893</td><td>0,437</td><td>0,646</td><td>0,817</td><td>0,884</td><td>0,000</td></tr>
+        </table>
+    </div>
+</body>
+</html>
